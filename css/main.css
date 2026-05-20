@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background: #ffe4e1;
+}
+
+/* 顶部区域 */
+.top-bar {
+    background: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+.logo {
+    color: #059669;
+    font-family: '华文琥珀', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.weather-widget {
+    background: #f3f4f6;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.top-right {
+    padding-right: 50px;
+    text-align: right;
+}
+
+.zh-slogan {
+    color: #dc2626;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.en-slogan {
+    color: #374151;
+    font-size: 14px;
+}
+
+/* 导航栏 */
+.main-nav {
+    background: #1f2937;
+    padding: 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background: #dc2626;
+}
+
+/* 主横幅 */
+.hero-banner {
+    background: black;
+    position: relative;
+}
+
+.banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outline-text {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    display: inline-block;
+}
+
+.subtitle {
+    color: #7f1d1d;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* 分页指示器 */
+.pagination {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    gap: 5px;
+}
+
+.page-dot {
+    width: 25px;
+    height: 25px;
+    background: #374151;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.page-dot.active {
+    background: white;
+    color: black;
+}
+
+/* 底部绿色导航 */
+.bottom-nav {
+    background: #10b981;
+}
+
+.bottom-nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bottom-nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.bottom-nav-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.separator {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 26px;
+}
